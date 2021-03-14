@@ -1,4 +1,4 @@
-"""File that contains Course model"""
+"""File that contains the Course model"""
 
 from django.db import models
 
