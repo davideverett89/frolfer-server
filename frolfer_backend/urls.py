@@ -25,6 +25,7 @@ router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'courses', Courses, 'course')
 router.register(r'holes', Holes, 'hole')
 router.register(r'pins', Pins, 'pin')
+router.register(r'players', Players, 'player')
 
 urlpatterns = [
     path('', include(router.urls)),
