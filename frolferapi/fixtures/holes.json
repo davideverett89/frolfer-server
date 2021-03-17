@@ -1,0 +1,146 @@
+[
+    {
+        "model": "frolferapi.hole",
+        "pk": 1,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 1"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 2,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 2"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 3,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 3"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 4,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 4"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 5,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 5"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 6,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 6"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 7,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 7"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 8,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 8"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 9,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 9"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 10,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 10"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 11,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 11"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 12,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 12"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 13,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 13"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 14,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 14"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 15,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 15"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 16,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 16"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 17,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 17"
+        }
+    },
+    {
+        "model": "frolferapi.hole",
+        "pk": 18,
+        "fields": {
+            "course_id": 1,
+            "label": "Hole 18"
+        }
+    }
+]

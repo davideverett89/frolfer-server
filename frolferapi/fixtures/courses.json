@@ -1,0 +1,15 @@
+[
+    {
+        "model": "frolferapi.course",
+        "pk": 1,
+        "fields": {
+            "name": "Cedar Hill Park",
+            "holes": 18,
+            "city": "Nashville",
+            "state": "Tennessee",
+            "zip_code": "37115",
+            "country": "United States",
+            "image_url": "https://www.dgcoursereview.com/course_pics/189/a5eb02ef.jpg"
+        }
+    }
+]
