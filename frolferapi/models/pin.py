@@ -3,11 +3,12 @@
 from django.db import models
 from .hole import Hole
 
-class Tee(models.Model):
+class Pin(models.Model):
     """
-    Disc golf tee database model.
+    Disc golf pin database model.
     """
     label = models.CharField(max_length=50)
     par = models.IntegerField()
     length = models.CharField(max_length=50)
     hole = models.ForeignKey(Hole, on_delete=models.CASCADE)
+    active = models.BooleanField(default=False)
