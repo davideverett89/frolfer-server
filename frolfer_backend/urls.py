@@ -18,11 +18,13 @@ from django.urls import path
 from django.conf.urls import include
 
 from rest_framework import routers
-from rest_framework.authtoken.views import obtain_auth_token
-from frolferapi.views import Courses
+# from rest_framework.authtoken.views import obtain_auth_token
+from frolferapi.views import *
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'courses', Courses, 'course')
+router.register(r'holes', Holes, 'hole')
+router.register(r'pins', Pins, 'pin')
 
 urlpatterns = [
     path('', include(router.urls)),
