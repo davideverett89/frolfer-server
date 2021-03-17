@@ -15,7 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
+
+from rest_framework import routers
+# from rest_framework.authtoken.views import obtain_auth_token
+from frolferapi.views import *
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'courses', Courses, 'course')
+router.register(r'holes', Holes, 'hole')
+router.register(r'pins', Pins, 'pin')
+router.register(r'players', Players, 'player')
 
 urlpatterns = [
+    path('', include(router.urls)),
     path('admin/', admin.site.urls),
+    # path('api-token-auth/', obtain_auth_token),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
