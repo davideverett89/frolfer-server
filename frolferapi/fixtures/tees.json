@@ -1,0 +1,11 @@
+[
+    {
+        "model": "frolferapi.tee",
+        "pk": 1,
+        "fields": {
+            "par": "",
+            "length": "",
+            "hole_id": 1
+        }
+    }
+]

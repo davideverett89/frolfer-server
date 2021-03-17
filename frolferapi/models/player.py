@@ -8,3 +8,4 @@ class Player(models.Model):
     Disc golf Player database model.
     """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+    rounds_played = models.IntegerField(default=0)

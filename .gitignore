@@ -10,3 +10,4 @@ obj
 dist
 frolfer_env
 frolfer.session.sql
+migrations

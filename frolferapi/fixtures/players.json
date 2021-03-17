@@ -1,0 +1,10 @@
+[
+    {
+        "model": "frolferapi.player",
+        "pk": 1,
+        "fields": {
+            "user_id": 1,
+            "rounds_played": 0
+        }
+    }
+]

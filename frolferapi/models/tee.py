@@ -7,6 +7,7 @@ class Tee(models.Model):
     """
     Disc golf tee database model.
     """
+    label = models.CharField(max_length=50)
     par = models.IntegerField()
     length = models.CharField(max_length=50)
     hole = models.ForeignKey(Hole, on_delete=models.CASCADE)
