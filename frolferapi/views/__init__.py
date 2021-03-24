@@ -3,3 +3,6 @@ from .course import Courses
 from .hole import Holes
 from .pin import Pins
 from .player import Players
+from .auth import login_user
+from .auth import register_user
+
