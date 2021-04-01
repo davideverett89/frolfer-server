@@ -51,7 +51,6 @@ def register_user(request):
     )
 
     player = Player.objects.create(
-        bio=req_body['bio'],
         user=new_user
     )
 
