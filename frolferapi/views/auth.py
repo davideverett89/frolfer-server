@@ -3,8 +3,8 @@ import json
 from django.http import HttpResponse
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.models import User
-from rest_framework.authtoken.models import Token
 from django.views.decorators.csrf import csrf_exempt
+from rest_framework.authtoken.models import Token
 from frolferapi.models import Player
 
 @csrf_exempt
@@ -51,7 +51,6 @@ def register_user(request):
     )
 
     player = Player.objects.create(
-        bio=req_body['bio'],
         user=new_user
     )
 
