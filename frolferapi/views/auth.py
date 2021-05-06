@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.models import Token
 from frolferapi.models import Player
+from rest_framework import serializers
 
 @csrf_exempt
 def login_user(request):
@@ -25,7 +26,8 @@ def login_user(request):
 
         if authenticated_user is not None:
             token = Token.objects.get(user=authenticated_user)
-            data = json.dumps({"valid": True, "token": token.key})
+            serializer = UserSerializer(authenticated_user, context={ 'request': request })
+            data = json.dumps({"valid": True, "token": token.key, "user": serializer.data})
             return HttpResponse(data, content_type='application/json')
 
         else:
@@ -60,3 +62,19 @@ def register_user(request):
 
     data = json.dumps({"token": token.key})
     return HttpResponse(data, content_type='application/json')
+
+class UserSerializer(serializers.ModelSerializer):
+    """
+    User Serializer
+    """
+    class Meta:
+        model = User
+        fields = (
+            'id',
+            'username',
+            'first_name',
+            'last_name',
+            'email',
+            'date_joined',
+            'is_staff'
+        )
