@@ -60,7 +60,7 @@ def register_user(request):
 
     token = Token.objects.create(user=new_user)
     serializer = UserSerializer(new_user, context={ 'request': request })
-    data = json.dumps({"token": token.key, "user": serializer.data})
+    data = json.dumps({"valid": True, "token": token.key, "user": serializer.data})
     return HttpResponse(data, content_type='application/json')
 
 class UserSerializer(serializers.ModelSerializer):
