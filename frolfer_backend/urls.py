@@ -26,6 +26,9 @@ router.register(r'courses', Courses, 'course')
 router.register(r'holes', Holes, 'hole')
 router.register(r'pins', Pins, 'pin')
 router.register(r'players', Players, 'player')
+router.register(r'rounds', Rounds, 'round')
+router.register(r'round_holes', RoundHoles, 'round_hole')
+router.register(r'score_cards', ScoreCards, 'score_card')
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -12,3 +12,4 @@ class ScoreCard(models.Model):
     end_time = models.DateTimeField()
     player = models.ForeignKey(Player, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.DO_NOTHING)
+    condition = models.CharField(max_length=50, default="")
