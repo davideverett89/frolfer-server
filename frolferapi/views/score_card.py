@@ -2,8 +2,8 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers
 from frolferapi.models import ScoreCard
+from frolferapi.serializers import ScoreCardSerializer
 
 class ScoreCards(ViewSet):
     """Frolfer disc golf scorecards"""
@@ -34,20 +34,3 @@ class ScoreCards(ViewSet):
             score_cards, many=True, context={ 'request': request }
         )
         return Response(serializer.data)
-
-class ScoreCardSerializer(serializers.ModelSerializer):
-    """JSON serializer for disc golf score cards.
-
-    Arguments:
-        serializers
-    """
-
-    class Meta:
-        model = ScoreCard
-        fields = (
-            'id',
-            'start_time',
-            'end_time',
-            'player',
-            'course'
-        )

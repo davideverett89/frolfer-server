@@ -2,8 +2,8 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers
 from frolferapi.models import Hole
+from frolferapi.serializers import HoleSerializer
 
 class Holes(ViewSet):
     """Frolfer disc golf course holes"""
@@ -34,17 +34,3 @@ class Holes(ViewSet):
             holes, many=True, context={ 'request': request }
         )
         return Response(serializer.data)
-
-class HoleSerializer(serializers.ModelSerializer):
-    """JSON serializer for disc golf course holes.
-
-    Arguments:
-        serializers
-    """
-    class Meta:
-        model = Hole
-        fields = (
-            'id',
-            'label',
-            'course_id'
-        )

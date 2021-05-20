@@ -2,8 +2,8 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers
 from frolferapi.models import Pin
+from frolferapi.serializers import PinSerializer
 
 class Pins(ViewSet):
     """Frolfer disc golf course pins"""
@@ -34,20 +34,3 @@ class Pins(ViewSet):
             pins, many=True, context={ 'request': request }
         )
         return Response(serializer.data)
-
-class PinSerializer(serializers.ModelSerializer):
-    """JSON serializer for disc golf course pins.
-
-    Arguments:
-        serializers
-    """
-    class Meta:
-        model = Pin
-        fields = (
-            'id',
-            'label',
-            'par',
-            'length',
-            'hole_id',
-            'active'
-        )
