@@ -2,8 +2,8 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers
 from frolferapi.models import Round
+from frolferapi.serializers import RoundSerializer
 
 class Rounds(ViewSet):
     """Rounds played by Players per Scorecard"""
@@ -34,22 +34,3 @@ class Rounds(ViewSet):
             rounds, many=True, context={ 'request': request }
         )
         return Response(serializer.data)
-
-
-class RoundSerializer(serializers.ModelSerializer):
-    """
-    JSON serializer for player rounds.
-
-    Arguments:
-        serializers
-    """
-
-    class Meta:
-        model = Round
-        fields = (
-            'id',
-            'score_card_id',
-            'player_id',
-            'total_strokes',
-            'score'
-        )

@@ -2,8 +2,8 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers
 from frolferapi.models import RoundHole
+from frolferapi.serializers import RoundHoleSerializer
 
 class RoundHoles(ViewSet):
     """A record of a player's performance on a single hole."""
@@ -34,20 +34,3 @@ class RoundHoles(ViewSet):
             round_holes, many=True, context={ 'request': request }
         )
         return Response(serializer.data)
-
-class RoundHoleSerializer(serializers.ModelSerializer):
-    """
-    JSON serializer for round holes.
-
-    Arguments:
-        serializers
-    """
-
-    class Meta:
-        model = RoundHole
-        fields = (
-            'id',
-            'round_id',
-            'hole_id',
-            'strokes',
-        )
