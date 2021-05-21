@@ -10,5 +10,5 @@ class Pin(models.Model):
     label = models.CharField(max_length=50)
     par = models.IntegerField()
     length = models.CharField(max_length=50)
-    hole = models.ForeignKey(Hole, on_delete=models.CASCADE)
+    hole = models.ForeignKey(Hole, on_delete=models.CASCADE, related_name="pins")
     active = models.BooleanField(default=False)

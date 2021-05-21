@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from frolferapi.serializers import UserSerializer
+from .user import UserSerializer
 
 from frolferapi.models import Player
 
