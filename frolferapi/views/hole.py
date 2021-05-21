@@ -28,8 +28,13 @@ class Holes(ViewSet):
         Returns:
             Response -- JSON serialized list of all disc golf course holes.
         """
-
         holes = Hole.objects.all()
+
+        course = self.request.query_params.get('course', None)
+
+        if course is not None:
+            holes = Hole.objects.filter(course_id=course)
+
         serializer = HoleSerializer(
             holes, many=True, context={ 'request': request }
         )
