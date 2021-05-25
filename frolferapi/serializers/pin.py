@@ -13,7 +13,7 @@ class PinSerializer(serializers.ModelSerializer):
             'id',
             'label',
             'par',
-            'length',
+            'distance',
             'hole_id',
             'active'
         )

@@ -5,7 +5,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "205 ft",
+            "distance": "205 ft",
             "hole_id": 1,
             "active": false
         }
@@ -16,7 +16,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "279 ft",
+            "distance": "279 ft",
             "hole_id": 1,
             "active": false
         }
@@ -27,7 +27,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 4,
-            "length": "450 ft",
+            "distance": "450 ft",
             "hole_id": 1,
             "active": true
         }
@@ -38,7 +38,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "238 ft",
+            "distance": "238 ft",
             "hole_id": 2,
             "active": true
         }
@@ -49,7 +49,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "302 ft",
+            "distance": "302 ft",
             "hole_id": 2,
             "active": false
         }
@@ -60,7 +60,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 4,
-            "length": "508 ft",
+            "distance": "508 ft",
             "hole_id": 2,
             "active": false
         }
@@ -71,7 +71,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "216 ft",
+            "distance": "216 ft",
             "hole_id": 3,
             "active": false
         }
@@ -82,7 +82,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "260 ft",
+            "distance": "260 ft",
             "hole_id": 3,
             "active": false
         }
@@ -93,7 +93,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "277 ft",
+            "distance": "277 ft",
             "hole_id": 3,
             "active": true
         }
@@ -104,7 +104,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "247 ft",
+            "distance": "247 ft",
             "hole_id": 4,
             "active": true
         }
@@ -115,7 +115,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "263 ft",
+            "distance": "263 ft",
             "hole_id": 4,
             "active": false
         }
@@ -126,7 +126,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "321 ft",
+            "distance": "321 ft",
             "hole_id": 4,
             "active": false
         }
@@ -137,7 +137,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "222 ft",
+            "distance": "222 ft",
             "hole_id": 5,
             "active": false
         }
@@ -148,7 +148,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "230 ft",
+            "distance": "230 ft",
             "hole_id": 5,
             "active": false
         }
@@ -159,7 +159,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "241 ft",
+            "distance": "241 ft",
             "hole_id": 5,
             "active": true
         }
@@ -170,7 +170,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "229 ft",
+            "distance": "229 ft",
             "hole_id": 6,
             "active": false
         }
@@ -181,7 +181,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "275 ft",
+            "distance": "275 ft",
             "hole_id": 6,
             "active": true
         }
@@ -192,7 +192,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "335 ft",
+            "distance": "335 ft",
             "hole_id": 6,
             "active": false
         }
@@ -203,7 +203,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "308 ft",
+            "distance": "308 ft",
             "hole_id": 7,
             "active": false
         }
@@ -214,7 +214,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "445 ft",
+            "distance": "445 ft",
             "hole_id": 7,
             "active": false
         }
@@ -225,7 +225,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 4,
-            "length": "610 ft",
+            "distance": "610 ft",
             "hole_id": 7,
             "active": true
         }
@@ -236,7 +236,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "269 ft",
+            "distance": "269 ft",
             "hole_id": 8,
             "active": false
         }
@@ -247,7 +247,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "324 ft",
+            "distance": "324 ft",
             "hole_id": 8,
             "active": true
         }
@@ -258,7 +258,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "416 ft",
+            "distance": "416 ft",
             "hole_id": 8,
             "active": false
         }
@@ -269,7 +269,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "245 ft",
+            "distance": "245 ft",
             "hole_id": 9,
             "active": true
         }
@@ -280,7 +280,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "334 ft",
+            "distance": "334 ft",
             "hole_id": 9,
             "active": false
         }
@@ -291,7 +291,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "455 ft",
+            "distance": "455 ft",
             "hole_id": 9,
             "active": false
         }
@@ -302,7 +302,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "293 ft",
+            "distance": "293 ft",
             "hole_id": 10,
             "active": false
         }
@@ -313,7 +313,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "431 ft",
+            "distance": "431 ft",
             "hole_id": 10,
             "active": false
         }
@@ -324,7 +324,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 4,
-            "length": "521 ft",
+            "distance": "521 ft",
             "hole_id": 10,
             "active": true
         }
@@ -335,7 +335,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "203 ft",
+            "distance": "203 ft",
             "hole_id": 11,
             "active": false
         }
@@ -346,7 +346,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "248 ft",
+            "distance": "248 ft",
             "hole_id": 11,
             "active": false
         }
@@ -357,7 +357,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "316 ft",
+            "distance": "316 ft",
             "hole_id": 11,
             "active": true
         }
@@ -368,7 +368,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "215 ft",
+            "distance": "215 ft",
             "hole_id": 12,
             "active": true
         }
@@ -379,7 +379,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "279 ft",
+            "distance": "279 ft",
             "hole_id": 12,
             "active": false
         }
@@ -390,7 +390,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "372 ft",
+            "distance": "372 ft",
             "hole_id": 12,
             "active": false
         }
@@ -401,7 +401,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "221 ft",
+            "distance": "221 ft",
             "hole_id": 13,
             "active": false
         }
@@ -412,7 +412,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "271 ft",
+            "distance": "271 ft",
             "hole_id": 13,
             "active": true
         }
@@ -423,7 +423,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "380 ft",
+            "distance": "380 ft",
             "hole_id": 13,
             "active": false
         }
@@ -434,7 +434,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "254 ft",
+            "distance": "254 ft",
             "hole_id": 14,
             "active": false
         }
@@ -445,7 +445,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "278 ft",
+            "distance": "278 ft",
             "hole_id": 14,
             "active": true
         }
@@ -456,7 +456,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "303 ft",
+            "distance": "303 ft",
             "hole_id": 14,
             "active": false
         }
@@ -467,7 +467,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "210 ft",
+            "distance": "210 ft",
             "hole_id": 15,
             "active": false
         }
@@ -478,7 +478,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "349 ft",
+            "distance": "349 ft",
             "hole_id": 15,
             "active": false
         }
@@ -489,7 +489,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 4,
-            "length": "468 ft",
+            "distance": "468 ft",
             "hole_id": 15,
             "active": true
         }
@@ -500,7 +500,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "286 ft",
+            "distance": "286 ft",
             "hole_id": 16,
             "active": true
         }
@@ -511,7 +511,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "321 ft",
+            "distance": "321 ft",
             "hole_id": 16,
             "active": false
         }
@@ -522,7 +522,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "368 ft",
+            "distance": "368 ft",
             "hole_id": 16,
             "active": false
         }
@@ -533,7 +533,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "364 ft",
+            "distance": "364 ft",
             "hole_id": 17,
             "active": false
         }
@@ -544,7 +544,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "416 ft",
+            "distance": "416 ft",
             "hole_id": 17,
             "active": true
         }
@@ -555,7 +555,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 3,
-            "length": "555 ft",
+            "distance": "555 ft",
             "hole_id": 17,
             "active": false
         }
@@ -566,7 +566,7 @@
         "fields": {
             "label": "Pin Position A",
             "par": 3,
-            "length": "300 ft",
+            "distance": "300 ft",
             "hole_id": 18,
             "active": false
         }
@@ -577,7 +577,7 @@
         "fields": {
             "label": "Pin Position B",
             "par": 3,
-            "length": "365 ft",
+            "distance": "365 ft",
             "hole_id": 18,
             "active": false
         }
@@ -588,7 +588,7 @@
         "fields": {
             "label": "Pin Position C",
             "par": 4,
-            "length": "570 ft",
+            "distance": "570 ft",
             "hole_id": 18,
             "active": true
         }
