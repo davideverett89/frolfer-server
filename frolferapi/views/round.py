@@ -6,7 +6,7 @@ from frolferapi.models import Round
 from frolferapi.serializers import RoundSerializer
 
 class Rounds(ViewSet):
-    """Rounds played by Players per Scorecard"""
+    """Rounds played by Players per Round"""
 
     def retrieve(self, request, pk=None):
         """Handle GET requests for a single round played by someone.
@@ -33,4 +33,23 @@ class Rounds(ViewSet):
         serializer = RoundSerializer(
             rounds, many=True, context={ 'request': request }
         )
+        return Response(serializer.data)
+
+    def create(self, request):
+        '''Handle POST operations
+        Returns:
+            Response -- JSON serialized Round instance
+        '''
+
+        new_round = Round()
+
+        new_round.score_card_id = request.data['score_card_id']
+        new_round.player_id = request.data['player_id']
+        new_round.total_strokes = request.data['total_strokes']
+        new_round.score = request.data['score']
+
+        new_round.save()
+
+        serializer = RoundSerializer(new_round, context={'request': request})
+
         return Response(serializer.data)
