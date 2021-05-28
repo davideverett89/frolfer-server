@@ -14,5 +14,6 @@ class ScoreCardSerializer(serializers.ModelSerializer):
             'id',
             'start_time',
             'end_time',
-            'course'
+            'course',
+            'condition'
         )
