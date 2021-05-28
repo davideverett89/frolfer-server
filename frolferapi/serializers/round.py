@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from .player import PlayerSerializer
 from frolferapi.models import Round
 
 class RoundSerializer(serializers.ModelSerializer):
@@ -9,6 +10,7 @@ class RoundSerializer(serializers.ModelSerializer):
         serializers
     """
 
+    player = PlayerSerializer(read_only=True)
     class Meta:
         model = Round
         fields = (
@@ -16,5 +18,6 @@ class RoundSerializer(serializers.ModelSerializer):
             'score_card_id',
             'player_id',
             'total_strokes',
-            'score'
+            'score',
+            'player'
         )
