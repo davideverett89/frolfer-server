@@ -28,9 +28,26 @@ class ScoreCards(ViewSet):
         Returns:
             Response -- JSON serialized list of all score cards.
         """
-        print('REQUEST:', request)
+
         score_cards = ScoreCard.objects.all()
         serializer = ScoreCardSerializer(
             score_cards, many=True, context={ 'request': request }
         )
+        return Response(serializer.data)
+
+    def create(self, request):
+        '''Handle POST operations
+        Returns:
+            Response -- JSON serialized Scorecard instance
+        '''
+
+        new_scorecard = ScoreCard()
+
+        new_scorecard.course_id = request.data['course_id']
+        new_scorecard.condition = request.data['condition']
+
+        new_scorecard.save()
+
+        serializer = ScoreCardSerializer(new_scorecard, context={'request': request})
+
         return Response(serializer.data)
